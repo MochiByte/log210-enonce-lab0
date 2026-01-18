@@ -1,9 +1,9 @@
 # Identification de l'étudiant
 
-- <nomComplet1>Entrer votre nom</nomComplet1>
-- <courriel1>Entrer votre courriel</courriel1>
-- <codeMoodle1>Entrer votre code moodle obtenu à partir de Signets, 2 lettres majuscule avec 5 chiffres</codeMoodle1>
-- <githubAccount1>Entrer l'identifiant de votre compte github</githubAccount1>
+- <nomComplet1>Ching Lairng Hang</nomComplet1>
+- <courriel1>ching-lairng.hang.1@ens.etsmtl.ca</courriel1>
+- <codeMoodle1>AS76860</codeMoodle1>
+- <githubAccount1>MochiByte</githubAccount1>
 
 # Squelette pour un API simple dans Node, Express et TypeScript
 
@@ -152,6 +152,11 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ### Cas d'utilisation
 
+#### Redémarrer
+
+1. Le joueur demande à redémarrer l'application.
+2. Le système termine tous les jeux en cours et redémarre l'application.
+
 #### Jouer aux dés
 
 1. Le Joueur demande à démarrer le jeu en s'identifiant.
@@ -165,7 +170,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ### Diagramme de cas d'utilisation
 
-![Diagramme de cas d'utilisation](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dcu.puml)
+![Diagramme de cas d'utilisation](https://www.plantuml.com/plantuml/svg/NSmzQWCn40NWNgTuE4MImdTmaMehiuRqOsbM4QkVPJJ2CI7tYS-n5mjQ22pfXddVUwUg9DfIn5iWBvGImp4iLRZdfY66IXfADf4dXHP8y1yA5uJjzgzpo0i99LIzHqPL2ROFxfA5x4oUBnlenLrs9JjxAIqxMs8Hg52k2mddlN8yKOiwbQoP4kETnL4cGrQBO2YDcu0g1jFdAVl8E5pkLTUVn0Ty6U2bAm6rJxZrKLytViRJKcwEvHeRTpIoMn-9H5WsCVu30uv73EU_QpJVviJPjHH_0G00 "Diagramme de cas d'utilisation")
 
 ### Modèle du domaine
 
