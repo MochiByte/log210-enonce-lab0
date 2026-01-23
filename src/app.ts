@@ -61,6 +61,15 @@ class App {
 
     // Route pour classement (stats)
     router.get('/stats', (req, res, next) => {
+      const joueurs = JSON.parse(jeuRoutes.controleurJeu.joueurs);
+
+      const joueursAvecRatio = joueurs
+        .map((j: any) => ({
+          ...j,
+          ratio: j.lancers > 0 ? j.lancersGagnes / j.lancers : 0
+        }))
+        .sort((a: any, b: any) => b.ratio - a.ratio);
+        
       res.render('stats',
         // passer objet au gabarit (template) Pug
         {
