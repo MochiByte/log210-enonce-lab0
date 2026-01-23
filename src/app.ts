@@ -76,7 +76,7 @@ class App {
           title: `${titreBase}`,
           user: user,
           // créer nouveau tableau de joueurs qui est trié par ratio
-          joueurs: JSON.parse(jeuRoutes.controleurJeu.joueurs)
+          joueurs: joueursAvecRatio
         });
     });
 
