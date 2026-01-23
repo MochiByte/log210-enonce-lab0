@@ -152,4 +152,4 @@ export class JeuRouter {
 
 // exporter its configured Express.Router
 export const jeuRoutes = new JeuRouter();
-//jeuRoutes.init();
+//jeuRoutes.init(); Pas besoin.
